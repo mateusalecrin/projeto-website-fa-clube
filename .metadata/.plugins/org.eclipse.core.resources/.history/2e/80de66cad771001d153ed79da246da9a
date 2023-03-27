@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {
+	font-size: 100%;
+	background-color: brown;
+}
+
+.cabeçalho {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}

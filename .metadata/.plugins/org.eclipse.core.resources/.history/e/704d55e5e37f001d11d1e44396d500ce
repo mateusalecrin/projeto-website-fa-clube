@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <!--   Responsividade e descrições para motores de busca --> 
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Site dos Principais Filósofos">
+<meta name="keywords" content="Mitologia, Grécia, Deuses, Olimpo">
+<meta name="author" content="Mateus Alecrin">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mitologia Grega</title>
+<link rel="stylesheet" type="text/css" href="css/site.css">
+</head>
+
+<body>
+	<!-- Cabeçalho do Site -->
+	<header class="cabecalho">
+		<img class="cabecalho-imagem" src="imgs/logo.png" alt="Logo do site">
+	</header>
+
+	<section class="conteudo">
+		
+		<!-- Imagem do pilar esquerdo -->
+		<img class="conteudo-imagem pilaresquerdo" src="imgs/pilar.png" alt="Imagem de pilar grego">
+		
+		<!-- Imagem do pilar direito -->
+		<img class="conteudo-imagem pilardireito" src="imgs/pilar.png" alt="Imagem de pilar grego">		
+		
+		<!-- Menu -->
+		<nav class="conteudo-menu">
+			<img class="conteudo-menu-icones" src="imgs/IconeHome32px.png" alt="Icone da página inicial">
+			<a class="conteudo-menu-icones" href="index.html">Página Inicial</a>			
+			<img class="conteudo-menu-icones" src="imgs/IconeConteudo32px.png" alt="Icone da página de conteudo">
+			<a class="conteudo-menu-opcoes" href="pages/site/conteudo.html">Conteúdo</a>
+			<img class="conteudo-menu-icones" src="imgs/IconeConteudo32px.png" alt="Icone da página de inscreva-se">
+			<a class="conteudo-menu-opcoes" href="pages/site/inscricao.html">Inscreva-se</a>
+			</div>
+			
+		</nav>
+			
+		<!-- Descrição-->
+		<div class="conteudo-escrito">
+			<h1 class="conteudo-escrito-titulo">Grécia Antiga</h1>
+			<h2 class="conteudo-escrito-subtitulo">Conheça os principais Deuses da Mitologia Grega</h2>
+		</div>
+		
+	</section>
+
+	<footer class="rodape">Copyright &copy; Mitologia na Grécia Antiga 2022</footer>
+</body>
+</html>

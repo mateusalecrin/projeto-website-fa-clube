@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+/* Resetar qualquer elemento do site */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/*  */
+body {
+	font-size: 100%;
+	background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+/* Formatação do Cabeçalho */
+.cabecalho {
+	margin: 0% 4% 0% 4%;
+	height: 100px;
+	border-bottom: 0.4px solid #FFF2E7;
+}
+
+.cabecalho-imagem {
+	float: left;
+	height: 80px;
+	width: 80px;
+	margin: 10px;
+}
+
+.conteudo {
+	margin: 0% 4% 4% 4%;
+	width: auto;
+	min-height: 460px;
+	
+}
+.conteudo-imagem {
+	width: 115px;
+	height: 400px;
+	margin-top: -15px;
+}
+
+.pilaresquerdo {
+	float:left;
+	margin-left: 10%;
+}
+
+.pilardireito {
+	float: right;
+	margin-right: 10%;
+}
+
+.conteudo-menu {
+	padding-top: 15px;
+	float: left;
+	height: auto;
+	width: 60%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.conteudo-menu-home {
+	width: 29px;
+	height: 33px;
+}
+.conteudo-menu-icones {
+	width: 30px;
+	height: 30px;	
+}
+
+.conteudo-menu-opcoes {
+	font-family: 'Sarala', sans-serif;
+	color: #FFF2E7;
+	font-weight: 400;
+	font-size: 18px
+}
+
+/* Conteudo */
+.conteudo-escrito {
+	padding: 5%;
+	float: left;
+	width: 60%;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	
+}
+
+.conteudo-escrito-titulo {
+	align-items: center;
+	font-family: 'Righteous', cursive;
+	font-weight: 400;
+	font-size: 64px;
+	color: #FFF2E7;
+}
+
+.conteudo-escrito-subtitulo {
+	font-family: 'Sarala', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	color: #ECD6C4;
+}
+
+.conteudo-fotos {
+	margin: 0% 4% 4% 4%;
+	height: 460px;
+	padding: 15px;
+	border-top: 15px solid transparent;
+    padding: 15px;
+	border-image: url(borda-grega.jpg) 30% round;
+}
+
+.conteudo-fotos-deuses {
+	height: 160px;
+	width: 160px;
+}
+
+/* Rodape */
+.rodape {
+	margin: 0% 4% 0% 4%;
+	clear: both;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+	border-top: 0.4px solid #FFF2E7;
+	justify-content: center;
+}

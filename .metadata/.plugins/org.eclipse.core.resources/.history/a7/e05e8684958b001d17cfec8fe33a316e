@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <!--   Responsividade e descrições para motores de busca --> 
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Site dos Principais Filósofos">
+<meta name="keywords" content="Mitologia, Grécia, Deuses, Olimpo">
+<meta name="author" content="Mateus Alecrin">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mitologia Grega</title>
+<link rel="stylesheet" type="text/css" href="css/site.css">
+</head>
+
+<body>
+	<!-- Cabeçalho do Site -->
+	<header class="cabecalho">
+		<!-- Menu -->
+		<nav class="cabecalho-menu">
+			<!-- Imagem do pilar esquerdo -->
+		<img class="cabecalho-imagem pilaresquerdo" src="imgs/pilar.png" alt="Imagem de pilar grego">
+			<a class="cabecalho-menu-opcoes" href="index.html">Página Inicial</a>			
+			<a class="cabecalho-menu-opcoes" href="pages/site/conteudo.html">Conteúdo</a>
+			<a class="cabecalho-menu-opcoes" href="pages/site/inscricao.html">Inscreva-se</a>			
+		<!-- Imagem do pilar direito -->
+		<img class="cabecalho-imagem pilardireito" src="imgs/pilar.png" alt="Imagem de pilar grego">
+		</nav>
+	</header>
+
+	<section class="corpo">
+		<!-- Descrição-->
+		<div class="corpo-escrito">
+			<h1 class="corpo-escrito-titulo">Grécia Antiga</h1>
+			<h2 class="corpo-escrito-subtitulo">Conheça os principais deuses da Mitologia Grega</h2>
+		</div>		
+		<div class="corpo-portaimagem">
+			<img class="corpo-imagem" src="imgs/templo-background-dia.jpg" alt="Imagem de um templo">	
+		</div>	
+	</section>
+
+	<footer class="rodape">
+		<div class= "rodape-creditos">
+			<a class= "rodape-creditos-link" href="https://www.flaticon.com/free-icons/home-page" title="home page icons">Home page icons created by Freepik - Flaticon</a>
+			<a class= "rodape-creditos-link" href="https://www.flaticon.com/free-icons/forms" title="forms icons">Forms icons created by Freepik - Flaticon</a>
+			<a class= "rodape-creditos-link" href="https://www.flaticon.com/free-icons/greek" title="greek icons">Greek icons created by Freepik - Flaticon</a>
+		</div>
+		<p class="rodape-copyright">Copyright &copy; Mitologia na Grécia Antiga 2022</p>
+	</footer>
+</body>
+</html>

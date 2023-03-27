@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <!--   Responsividade e descrições para motores de busca --> 
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Site dos Principais Filósofos">
+	<meta name="keywords" content="Filósofos, Grécia, conhecimento">
+	<meta name="autdor" content="Mateus Alecrin">
+	<meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+	<title>Mitologia Grega</title>
+
+	<!-- Importando o CSS -->
+	<link rel="stylesheet" type="text/css" href="../../css/site.css">
+</head>
+
+<body>
+	<!-- Cabeçalho do Site -->
+	<header class="cabecalho">
+		<!-- Menu -->
+		<nav class="cabecalho-menu">
+			<!-- Imagem do pilar esquerdo -->
+		<img class="cabecalho-imagem pilaresquerdo" src="../../imgs/pilar.png" alt="Imagem de pilar grego">
+			<a class="cabecalho-menu-opcoes" href="../../index.html">Página Inicial</a>			
+			<a class="cabecalho-menu-opcoes" href="conteudo.html">Conteúdo</a>
+			<a class="cabecalho-menu-opcoes" href="inscricao.html">Inscreva-se</a>			
+		<!-- Imagem do pilar direito -->
+		<img class="cabecalho-imagem pilardireito" src="../../imgs/pilar.png" alt="Imagem de pilar grego">
+		</nav>
+	</header>
+
+	<section class="corpo">
+		<!-- Descrição-->
+		<div class="corpo-escrito">
+			<h1 class="corpo-escrito-titulo">Grécia Antiga</h1>
+			<h2 class="corpo-escrito-subtitulo">Conheça os principais deuses da Mitologia Grega</h2>
+		</div>		
+		<div class="corpo-portaimagem">
+			<img class="corpo-imagem" src="../../imgs/templo-background-noite.jpg" alt="Imagem de um templo">	
+		</div>	
+	</section>
+	
+	<section class="corpo-cards">
+		<div class="corpo-cards-conteudo">
+			<img class="corpo-cards-conteudo-deuses" src="../../imgs/Zeus.png" alt="Imagem do Zeus">
+			<div class="corpo-cards-conteudo-escrito">
+				<h3 class="corpo-cards-titulo">Zeus</h3>
+				<p class="corpo-cards-paragrafo">O deus mais poderoso do Olimpo! Era considerado o governante
+					do Monte Olimpo e o rei dos deuses gregos. As regras eram definidas por ele, que controlava
+					a ordem e a justiça.</p>
+			</div>
+		</div>
+
+		<div class="corpo-cards-conteudo">
+			<img class="corpo-cards-conteudo-deuses" src="../../imgs/Hera.png" alt="Imagem do Hera">
+			<div class="corpo-cards-conteudo-escrito">
+				<h3 class="corpo-cards-titulo">Hera</h3>
+				<p class="corpo-cards-paragrafo">Irmã e esposa de Zeus, rainha dos deuses, considerada a deusa da maternidade, do casamento
+					e protetora das esposas. Um dos seus principais símbolos era o romã, por estar associado à fertilidade.</p>
+			</div>	
+		</div>
+
+		<div class="corpo-cards-conteudo">
+			<img class="corpo-cards-conteudo-deuses" src="../../imgs/Poseidon.png" alt="Imagem do Poseidon">
+			<div class="corpo-cards-conteudo-escrito">
+				<h3 class="corpo-cards-titulo">Poseidon</h3>
+				<p class="corpo-cards-paragrafo">Irmão de Zeus e de Hera, Poseidon é o rei dos mares e das águas,
+					considerado o deus dos oceanos, das tempestades e dos lagos.</p>
+			</div>
+		</div>
+
+		<div class="corpo-cards-conteudo">
+			<img class="corpo-cards-conteudo-deuses" src="../../imgs/Athenas.png" alt="Imagem da Athenas">
+			<div class="corpo-cards-conteudo-escrito">
+				<h3 class="corpo-cards-titulo">Atena</h3>
+				<p class="corpo-cards-paragrafo">Atena era uma deusa equilibrada, sendo muito estratégica em batalhas!
+					Ao contrário de outros deuses como Ares, Atena entendia as guerras como um espaço de conquistas sociais e políticas, no 
+					lugar das brutalidades.</p>
+			</div>	
+		</div>
+
+		<div class="corpo-cards-conteudo">
+			<img class="corpo-cards-conteudo-deuses" src="../../imgs/Ares.png" alt="Imagem do Ares">
+			<div class="corpo-cards-conteudo-escrito">
+				<h3 class="corpo-cards-titulo">Ares</h3>
+				<p class="corpo-cards-paragrafo">Meio-irmão de Atena, Ares era filho de Zeus e Hera. Ares era visto como um
+					deus violento e vingativo, sendo considerado o deus das guerras.</p>
+			</div>
+		</div>
+
+		<div class="corpo-cards-conteudo">
+			<img class="corpo-cards-conteudo-deuses" src="../../imgs/Hefesto.png" alt="Imagem do Hefesto">
+			<div class="corpo-cards-conteudo-escrito">
+				<h3 class="corpo-cards-titulo">Hefesto</h3>
+				<p class="corpo-cards-paragrafo">Conhecido como o deus do fogo, dos metais, da metalurgia, dos ferreiros e escultores.
+					Trabalhava nos vulcões, com a ajuda dos ciclopes, gigantes de um olho só.</p>
+			</div>
+		</div>
+
+		<div class="corpo-cards-conteudo">
+			<img class="corpo-cards-conteudo-deuses" src="../../imgs/Afrodite.png" alt="Imagem da Afrodite">
+			<div class="corpo-cards-conteudo-escrito">
+				<h3 class="corpo-cards-titulo">Afrodite</h3>
+				<p class="corpo-cards-paragrafo">Conhecida como a deusa do amor, da sexualidade e da beleza, era encantadora.
+					Segundo o mito contado pelo escritor grego Hesíodo, Afrodite teria nascido nas espumas do mar.</p>
+			</div>
+		</div>
+
+		<div class="corpo-cards-conteudo">
+			<img class="corpo-cards-conteudo-deuses" src="../../imgs/Apolo.png" alt="Imagem do Apolo">
+			<div class="corpo-cards-conteudo-escrito">
+				<h3 class="corpo-cards-titulo">Apolo</h3>
+				<p class="corpo-cards-paragrafo">Um dos principais deuses do Olimpo, é o deus do Sol, da beleza e o patrono das artes
+					(da música, poesia e da pintura). Diziam ter influências nas colheitas e na proteção dos rebanhos.</p>
+			</div>
+		</div>
+		
+		<div class="corpo-cards-conteudo">
+			<img class="corpo-cards-conteudo-deuses" src="../../imgs/Artemis.png" alt="Imagem da Artemis">
+			<div class="corpo-cards-conteudo-escrito">
+				<h3 class="corpo-cards-titulo">Ártemis</h3>
+				<p class="corpo-cards-paragrafo">Irmã gêmea de Apolo, é a deusa da Lua. Considerada também como a deusa da caça, dos animais,
+					da vegetação, da fertilidade e da castidade. Ártemis era muito talentosa com o arco e a flecha.</p>
+			</div>
+		</div>
+
+		<div class="corpo-cards-conteudo">
+			<img class="corpo-cards-conteudo-deuses" src="../../imgs/Dionisio.png" alt="Imagem do Dionisio">
+			<div class="corpo-cards-conteudo-escrito">
+				<h3 class="corpo-cards-titulo">Dionisio</h3>
+				<p class="corpo-cards-paragrafo">O deus do vinho, das festas, da alegria, do teatro, da natureza, dos ciclos vitais e da
+					fecundidade. Em muitas das estátuas e pinturas do deus, ele está com um cacho de uva e com uma taça de vinho.</p>
+			</div>
+		</div>
+
+		<div class="corpo-cards-conteudo">
+			<img class="corpo-cards-conteudo-deuses" src="../../imgs/Hermes.png" alt="Imagem do Hermes">
+			<div class="corpo-cards-conteudo-escrito">
+				<h3 class="corpo-cards-titulo">Hermes</h3>
+				<p class="corpo-cards-paragrafo">Era considerado o mensageiro dos deuses, deus do comércio, da riqueza e da sorte. Protetor das viagens,
+					Hermes guiava os mortos ao submundo do deus Hades, sendo, portanto, o guardião da entrada no submundo.</p>
+			</div>
+		</div>
+
+		<div class="corpo-cards-conteudo">
+			<img class="corpo-cards-conteudo-deuses" src="../../imgs/Hades.png" alt="Imagem do Hades">
+			<div class="corpo-cards-conteudo-escrito">
+				<h3 class="corpo-cards-titulo">Hades</h3>
+				<p class="corpo-cards-paragrafo">Afrodite era considerada pelos gregos antigos a deusa do amor, da beleza, do desejo e da fertilidade. 
+					Era vista como o padrão de beleza grego e considerada capaz de seduzir homens e deuses.</p>
+			</div>
+		</div>		
+	</section>
+	
+	<section class="corpo">
+		<table class="corpo-tabela">
+			<thead></thead>
+			<tr>
+				<th class="corpo-tabela-titulo" colspan="2">Deuses do Olimpo</th>
+			</tr>
+			<tr>
+				<th class="coluna-um">Nome</th>
+				<th>Descrição</th>
+			</tr>
+			<tbody></tbody>
+			<tr>
+				<td class="coluna-um">Zeus</td>
+				<td>Deus dos deuses, do céu e da terra, senhor do Olimpo.</td>
+			</tr>
+			<tr>
+				<td class="coluna-um">Hera</td>
+				<td>Esposa de Zeus, deusa dos deuses, protetora do casamento.</td>
+			</tr>
+			<tr>
+				<td class="coluna-um">Poseidon</td>
+				<td>Irmão de Hades e Zeus, deus dos mares e oceanos.</td>
+			</tr>
+			<tr>
+				<td class="coluna-um">Hades</td>
+				<td>Irmão de Poseidon e Zeus, deus do submundo.</td>
+			</tr>
+			<tr>
+				<td class="coluna-um">Atena</td>
+				<td>Filha de Zeus, deusa da guerra justa, da justiça e da sabedoria. </td>
+			</tr>
+			<tr>
+				<td class="coluna-um">Apolo</td>
+				<td>Filho de Leto (deusa do anoitecer) e Zeus, deus do sol, das artes e das profecias.</td>
+			</tr>
+			<tr>
+				<td class="coluna-um">Ares</td>
+				<td>Filho de Hera e Zeus, deus da guerra.</td>
+			</tr>
+			<tr>
+				<td class="coluna-um">Hefesto</td>
+				<td>Filho de Hera e Zeus, deus do fogo e do metal.</td>
+			</tr>
+			<tr>
+				<td class="coluna-um">Afrodite</td>
+				<td>Filha de Dione (deusa das ninfas) e Zeus, deusa do amor e da beleza.</td>
+			</tr>
+			<tr>
+				<td class="coluna-um">Ártemis</td>
+				<td>Filha de Leto (deusa do anoitecer) e Zeus, deusa da lua e da caça.</td>
+			</tr>
+			<tr>
+				<td class="coluna-um">Hermes</td>
+				<td>Filho de Maia (deusa da fecundidade) e Zeus, mensageiro de Zeus.</td>
+			</tr>
+			<tr>
+				<td class="coluna-um">Dionísio</td>
+				<td>Filho de Sêmele (mortal) e Zeus, deus do teatro, do vinho e das festas.</td>
+			</tr>
+		</table>
+	</section>
+	
+	<footer class="rodape">
+		<div class= "rodape-creditos">
+			<a class= "rodape-creditos-link" href="https://www.flaticon.com/free-icons/home-page" title="home page icons">Home page icons created by Freepik - Flaticon</a>
+			<a class= "rodape-creditos-link" href="https://www.flaticon.com/free-icons/forms" title="forms icons">Forms icons created by Freepik - Flaticon</a>
+			<a class= "rodape-creditos-link" href="https://www.flaticon.com/free-icons/greek" title="greek icons">Greek icons created by Freepik - Flaticon</a>
+		</div>
+		<p class="rodape-copyright">Copyright &copy; Mitologia na Grécia Antiga 2022</p>
+	</footer>	
+	
+</body>
+</html>

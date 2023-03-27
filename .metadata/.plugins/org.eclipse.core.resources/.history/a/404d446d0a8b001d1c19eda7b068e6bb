@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <!--   Responsividade e descrições para motores de busca --> 
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Site dos Principais Filósofos">
+<meta name="keywords" content="Mitologia, Grécia, Deuses, Olimpo">
+<meta name="author" content="Mateus Alecrin">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mitologia Grega</title>
+<link rel="stylesheet" type="text/css" href="../../css/site.css">
+</head>
+
+<body>
+	<!-- Cabeçalho do Site -->
+	<header class="cabecalho">
+		<!-- Menu -->
+		<nav class="cabecalho-menu">
+			<!-- Imagem do pilar esquerdo -->
+		<img class="cabecalho-imagem pilaresquerdo" src="../../imgs/pilar.png" alt="Imagem de pilar grego">
+			<a class="cabecalho-menu-opcoes" href="../../index.html">Página Inicial</a>			
+			<a class="cabecalho-menu-opcoes" href="conteudo.html">Conteúdo</a>
+			<a class="cabecalho-menu-opcoes" href="inscricao.html">Inscreva-se</a>			
+		<!-- Imagem do pilar direito -->
+		<img class="cabecalho-imagem pilardireito" src="../../imgs/pilar.png" alt="Imagem de pilar grego">
+		</nav>
+	</header>
+
+	<section class="corpo">
+		<div class="corpo-escrito">
+		<h1 class="corpo-escrito-titulo">Inscreva-se</h1>
+		<h2 class="corpo-escrito-subtitulo">Acompanhe as atualizações de conteúdo.</h2>	
+		</div>
+		<form name="forminscrevase" method="post" action="#">
+			<fieldset class="inscrevase">
+				<legend class="inscrevase-legenda">Dados pessoais:</legend>
+				<label class="inscrevase-legenda" for="nome">Nome:</label>
+				<input class="inscrevase-campo" type="text" name="txtnome" id="nome">
+				<label class="inscrevase-legenda" for="data">Data de nascimento:</label>
+				<input class="inscrevase-campo" type="date" name="txtdata" id="data">
+				<label class="inscrevase-legenda" for="fone">Telefone:</label>
+				<input class="inscrevase-campo" type="text" name="txtfone" id="fone">
+				<label class="inscrevase-legenda" for="email">E-mail:</label>
+				<input class="inscrevase-campo" type="email" name="txtemail" id="email">
+				<label class="inscrevase-legenda" for="sexo">Sexo:</label>
+				<input class="inscrevase-radio" type="radio" name="txtsexo" id="sexo">
+				<label class="inscrevase-legenda" for="sexo">Masculino</label>
+				<input class="inscrevase-radio" type="radio" name="txtsexo" id="sexo">
+				<label class="inscrevase-legenda" for="sexo">Feminino</label>
+				<input class="inscrevase-checkbox" type="checkbox" name="txtcheckbox" id="interesse">
+				<label class="inscrevase-legenda" for="interesse">Desejo participar do fã-clube.</label>
+				<button type="reset">Limpar</button><button type="submit">Enviar</button>
+			</fieldset>
+		</form>
+			
+	</section>
+
+	<footer class="rodape">Copyright &copy; Mitologia na Grécia Antiga 2022</footer>	
+	<a class="rodape-creditos" href="https://br.freepik.com/vetores-gratis/construcao-abandonada-da-arquitetura-do-templo-arruinado_34567922.htm#page=2&query=grecia%20antiga&position=7&from_view=search&track=sph">Imagem do templo1 por upklyak no Freepik</a>
+	<a class="rodape-creditos" href="https://br.freepik.com/vetores-gratis/templo-antigo-construindo-cena-de-paisagem-noturna_35779712.htm#query=grecia%20antiga&position=8&from_view=search&track=sph">Imagem do templo2 por upklyak no Freepik</a>
+</body>
+</html>

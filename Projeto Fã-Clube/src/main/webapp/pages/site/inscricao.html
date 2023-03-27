@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	 <!--   Responsividade e descrições para motores de busca --> 
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Site dos Principais Filósofos">
+		<meta name="keywords" content="Mitologia, Grécia, Deuses, Olimpo">
+		<meta name="author" content="Mateus Alecrin">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Mitologia Grega</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../../css/site.css">
+		<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+		<script src="../../js/site.js"></script>
+	</head>
+	
+	<body>
+		<!-- Cabeçalho do Site -->
+		<header class="cabecalho"></header>
+	
+		<section class="corpo">
+			<article class="corpo-escrito">
+				<h1 class="corpo-escrito-titulo">Inscreva-se</h1>
+				<h2 class="corpo-escrito-subtitulo">Acompanhe as atualizações de conteúdo.</h2>	
+			</article>
+			<form name="forminscrevase" method="post" action="#" onsubmit="return validaFaleConosco()">
+				<fieldset class="inscrevase">
+					<legend>&nbsp; Dados pessoais &nbsp;</legend>
+					<label for="nome">Nome:</label>
+					<input type="text" name="txtnome" id="nome" placeholder="[Aluno Sobrenome] ou [Professor Sobrenome]">
+					<label for="data">Data de nascimento:</label>
+					<input type="date" name="txtdata" id="data">
+					<label for="fone">Telefone:</label>
+					<input type="text" name="txtfone" id="fone" placeholder="(00) 00000-0000">
+					<label for="email">E-mail:</label>
+					<input type="email" name="txtemail" id="email" placeholder="seuemail@aqui">
+					
+					<div class="form-container">
+					<label for="sexo">Sexo:</label>
+					</div>
+					
+					<div class="form-container">
+					<input class="inscrevase-radio-checkbox" type="radio" name="txtsexo" id="sexo">
+					<label class="sexo" for="sexo">Masculino</label>
+					</div>
+	
+					<div class="form-container">
+					<input class="inscrevase-radio-checkbox" type="radio" name="txtsexo" id="sexo">
+					<label class="sexo" for="sexo">Feminino</label>
+					</div>
+					
+					<div class="form-container">
+					<input class="inscrevase-radio-checkbox" type="checkbox" name="txtcheckbox" id="interesse">
+					<label for="interesse">Desejo participar do fã-clube.</label>
+					</div>
+					
+					<div class="form-container">
+					<button class="inscrevase-botao" type="reset">Limpar</button>
+					<button class="inscrevase-botao" type="submit">Enviar</button>
+					</div>
+				</fieldset>
+			</form>
+				
+		</section>
+	
+		<footer class="rodape"></footer>
+	</body>
+</html>

@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	font-size: 100%;
+	background-color: blue;
+}
+
+.cabeçalho {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.cabeçalho-imagem {
+	height: 72px;
+}
+
+.cabeçalho-menu {
+	display: flex;
+	gap: 32px;
+}
+
+.cabeçalho-menu-opcoes {
+	font-family: 'Sarala', sans-serif;
+	color: #FFF2E7; font-weight : 400;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.conteudo {
+	margin-bottom: 48px;
+	border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-principal {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}

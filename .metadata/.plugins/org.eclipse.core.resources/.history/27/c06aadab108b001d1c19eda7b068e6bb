@@ -1,0 +1,286 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+/* Resetar qualquer elemento do site */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+	font-size: 100%;
+	background: #fefae0
+}
+
+/* -------------------- Configurações Gerais --------------------   */
+.cabecalho {
+	margin: 0% 4% 0% 4%;
+	height: 100px;
+	border-bottom: 3px solid #fefae0;
+	background: #283618;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.cabecalho-menu {
+	height: 100%;
+	width: 80%;
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.cabecalho-imagem {
+	width: 40px;
+	height: 100px;
+	margin-top: 0px;
+}
+
+.pilaresquerdo {
+	float:left;
+	margin-left: 10%;
+}
+
+.pilardireito {
+	float: right;
+	margin-right: 10%;
+}
+
+.cabecalho-menu-opcoes {
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	font-family: 'Righteous', sans-serif;
+	color: #fefae0;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	padding: 0 10px;
+	height: 25px;
+}
+
+.cabecalho-menu-opcoes:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 3px;
+	bottom: 0;
+	left: 0;
+	background-color: #fefae0;
+	transform-origin: bottom right;	
+	transition: transform 0.25s ease-out;
+}
+
+.cabecalho-menu-opcoes:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
+
+.rodape {
+	margin: 0% 4% 0% 4%;
+	clear: both;
+	padding: 10px;
+	background-color: #283618;
+	border-radius: 5px 5px 0px 0px;
+	text-decoration: none;
+}
+
+.rodape-creditos {
+	padding: 5px;
+	text-align: center;
+		
+}
+
+.rodape-creditos-link {
+	padding: 5px;
+	color: #fefae0;
+	font-size: 10px;
+	line-height: 30px;
+}
+
+.rodape-copyright {
+	color: #fefae0;
+	font-size: 15px;
+	text-align: center;	
+	letter-spacing: 0.5px;
+	font-family: 'Righteous', sans-serif;
+}
+/* -------------------- Configuração do corpo da página principal -------------------- */
+.corpo {
+	margin: 0% 4% 0% 4%;
+	width: auto;
+	min-height: 500px;
+	background: #606c38;
+	border-radius: 5px;
+	border-bottom: 3px solid #fefae0;
+	clear: both;
+	padding: 10px;
+}
+
+.corpo-portaimagem {
+	display: flex;
+	justify-content: center;
+}
+
+.corpo-imagem {
+	width: 70%;
+    padding: 10px;
+    border-radius: 60px;
+}
+
+.corpo-escrito {
+	gap: 10px;
+	padding: 2%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-weight: 400;
+	color: #fefae0;
+}
+
+.corpo-escrito-titulo {
+	font-family: 'Righteous', cursive;
+	font-size: 64px;
+}
+
+.corpo-escrito-subtitulo {
+	font-family: 'Sarala', sans-serif;
+	font-size: 24px;
+}
+
+/* -------------------- Configuração do corpo da página de conteúdo -------------------- */
+.corpo-tabela{
+	text-align: center;
+	color: #fefae0;
+	width: 72%;
+	margin: 0px auto;
+	padding: 10px;
+	border: 3px solid #fefae0;
+	border-radius: 5px;
+}
+
+.corpo-tabela-titulo {
+	font-size: 20px;
+}
+
+tr, td, th {
+	border-bottom: 0.5px solid #fefae0;
+	line-height: 30px;
+}
+
+.coluna-um {
+	border-right: 0.5px solid #fefae0;	
+}
+
+tr, td {
+	background-color: #606c38;
+}
+
+th {
+	background-color: #283618;
+	border-radius: 5px;
+}
+
+.corpo-cards {
+	margin: 0% 4% 0% 4%;
+	width: auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background: #606c38;
+	border-radius: 5px;
+	border-bottom: 3px solid #fefae0;
+	padding: 10px;
+}
+
+.corpo-cards-conteudo {
+	margin: 10px;
+	height: 200px;
+	width: 35%;
+	box-shadow: 0 0 15px rgba(0,0,0,30%);
+}
+
+.corpo-cards-conteudo-deuses {
+	height: 200px;
+	width: 40%;
+	float: left;
+}
+
+.corpo-cards-conteudo-escrito {
+	color: #fefae0;
+	float: left;
+	width: 60%;
+	margin: 0px auto;
+	padding: 10px;
+	border: 3px solid #fefae0;
+	border-radius: 5px;
+	height: 100%
+}
+
+.corpo-cards-titulo {
+	font-size: 20px;
+	padding: 5px 5px;
+	letter-spacing: 1px;
+	text-align: center;
+	background-color: #283618;
+	border-radius: 5px;
+}
+
+.corpo-cards-paragrafo {
+	text-align: justify;
+	padding: 5px;
+}
+
+/* -------------------- Configuração do corpo da página de inscrição -------------------- */
+.inscrevase {
+	padding: 20px;
+	margin: 0px auto;
+	margin-bottom: 10px;
+	width: 30%;
+	border-radius: 10px;
+	border: 3px solid #fefae0;
+	font-weight: bold;
+	color: #fefae0;
+}
+
+.inscrevase-legenda {
+	display: block;
+}
+
+.inscrevase-checkbox, .inscrevase-legenda-excessao {
+	margin: 5px;
+}
+
+.masc-fem, .checkbox {
+	margin: 0px;
+	line-height: 30px
+}
+
+.checkbox {
+	margin-left: 60px;
+}
+
+.inscrevase-radio {
+	margin-left: 30px;
+}
+
+.inscrevase-campo {
+	margin: 5px auto;
+	padding: 5px 0;
+	width: 100%;
+}
+
+.inscrevase-botao {
+	padding: 5px;
+	width: 30%;
+	margin: 7px 9%;
+	font-weight: bold;
+	font-size: 16px;
+	color: #fefae0;
+	background-color: #606c38;
+	border: 1px solid #fefae0;
+	border-radius: 5px;
+}

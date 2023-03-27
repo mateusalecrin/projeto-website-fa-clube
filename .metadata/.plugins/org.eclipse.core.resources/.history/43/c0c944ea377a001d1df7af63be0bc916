@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Site dos Principais Filósofos">
+<meta name="keywords" content="Filósofos, Grécia, conhecimento">
+<meta name="author" content="Mateus Alecrin">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mitologia Grega</title>
+<link rel="stylesheet" type="text/css" href="css/site.css">
+</head>
+
+<body>
+	<header class="cabecalho">
+	<img class="cabecalho-imagem" src="imgs/logo.png" alt="Logo do site">
+		<nav class="cabecalho-menu">
+			<a class="cabecalho-menu-opcoes">Página Inicial</a> 
+			<a class="cabecalho-menu-opcoes">Conteúdo</a>
+			<a class="cabecalho-menu-opcoes">Inscreva-se</a>
+		</nav>
+	</header>
+	<main class="conteudo">
+	<section class="conteudo-principal">
+	<div class="conteudo-principal-escrito">
+	<h1>Grécia Antiga</h1>
+	<h2>Conheça os principais filósofos</h2>
+	<button>Inscreva-se</button>
+	</div>
+	<img class="conteudo-principal-imagem" src="imgs/partenon.jpg" alt="Imagem do Partenon, Templo Grego.">
+	</section>
+	
+	<section>
+	<h3>No que isso pode ajudar?</h3>
+	<p>A parte que <strong>ignoramos</strong></p>
+	<p>é <strong>muito maior</strong> que</p>
+	<p>tudo quanto sabemos - Platão</p>
+	</section>
+</main>
+
+	<footer>Copyright &copy; Filosofia na Grécia Antiga 2022</footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/site.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<a href=""><div>Página Inicial</div></a> 
+			<a href=""><div>Conteúdo</div></a>
+			<a href=""><div>Inscreva-se</div></a>
+		</nav>
+	</header>
+	<section></section>
+	<footer>Copyright &copy; Filosofia na Grécia Antiga 2022</footer>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <!--   Responsividade e descrições para motores de busca --> 
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Site dos Principais Filósofos">
+	<meta name="keywords" content="Filósofos, Grécia, conhecimento">
+	<meta name="author" content="Mateus Alecrin">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mitologia Grega</title>
+
+	<!-- Importando o CSS -->
+	<link rel="stylesheet" type="text/css" href="../../css/site.css">
+</head>
+
+<body>
+	<!-- Cabeçalho do Site -->
+	<header class="cabecalho">
+		<img class="cabecalho-imagem" src="../../imgs/logo.png" alt="Logo do site">
+	</header>
+
+	<section class="conteudo">
+		
+		<!-- Imagem do pilar esquerdo -->
+		<img class="conteudo-imagem pilaresquerdo" src="../../imgs/pilar.png" alt="Imagem de pilar grego">
+		
+		<!-- Imagem do pilar direito -->
+		<img class="conteudo-imagem pilardireito" src="../../imgs/pilar.png" alt="Imagem de pilar grego">		
+		
+		<!-- Menu -->
+		<nav class="conteudo-menu">
+			<img class="conteudo-menu-home" src="../../imgs/IconeHome32px.png" alt="Icone da página inicial">
+			<a class="conteudo-menu-opcoes" href="../../index.html">Página Inicial</a>			
+			<img class="conteudo-menu-icones" src="../../imgs/IconeConteudo32px.png" alt="Icone da página de conteudo">
+			<a class="conteudo-menu-opcoes" href="pages/site/conteudo.html">Conteúdo</a>
+			<img class="conteudo-menu-icones" src="../../imgs/IconeInscreva32px.png" alt="Icone da página de inscreva-se">
+			<a class="conteudo-menu-opcoes" href="pages/site/inscricao.html">Inscreva-se</a>			
+		</nav>
+			
+		<!-- Descrição-->
+		<div class="conteudo-escrito">
+			<h1 class="conteudo-escrito-titulo">Grécia Antiga</h1>
+			<h2 class="conteudo-escrito-subtitulo">Conheça os principais Deuses da Mitologia Grega</h2>
+		</div>
+		
+	</section>		
+			<div class="conteudo-fotos">
+			<img class="conteudo-fotos-deuses" src="../../imgs/Afrodite.png" alt="Imagem da Afrodite">
+			<img class="conteudo-fotos-deuses" src="../../imgs/Apolo.png" alt="Imagem do Apolo">
+			<img class="conteudo-fotos-deuses" src="../../imgs/Ares.png" alt="Imagem do Ares">
+			<img class="conteudo-fotos-deuses" src="../../imgs/Artemis.png" alt="Imagem da Artemis">
+			<img class="conteudo-fotos-deuses" src="../../imgs/Athenas.png" alt="Imagem da Athenas">
+			<img class="conteudo-fotos-deuses" src="../../imgs/Demeter.png" alt="Imagem da Demeter">
+			<img class="conteudo-fotos-deuses" src="../../imgs/Dionisio.png" alt="Imagem do Dionisio">
+			<img class="conteudo-fotos-deuses" src="../../imgs/Hades.png" alt="Imagem do Hades">
+			<img class="conteudo-fotos-deuses" src="../../imgs/Hefesto.png" alt="Imagem do Hefesto">
+			<img class="conteudo-fotos-deuses" src="../../imgs/Hera.png" alt="Imagem do Hera">
+			<img class="conteudo-fotos-deuses" src="../../imgs/Hermes.png" alt="Imagem do Hermes">
+			<img class="conteudo-fotos-deuses" src="../../imgs/Poseidon.png" alt="Imagem do Poseidon">
+			<img class="conteudo-fotos-deuses" src="../../imgs/Zeus.png" alt="Imagem do Zeus">
+			</div>
+			
+			<div class="">
+			<h2>A</h2>
+			<p>A</p>
+			</div>
+			<div>
+			<h2>A</h2>
+			<p>A</p>
+			</div>
+			<div>
+			<h2>A</h2>
+			<p>A</p>
+			</div>
+			<div>
+			<h2>A</h2>
+			<p>A</p>
+			</div>
+			<div>
+			<h2>A</h2>
+			<p>A</p>
+			</div>
+			<div>
+			<h2>A</h2>
+			<p>A</p>
+			</div>
+			<div>
+			<h2>A</h2>
+			<p>A</p>
+			</div>
+			<div>
+			<h2>A</h2>
+			<p>A</p>
+			</div>
+			<div>
+			<h2>A</h2>
+			<p>A</p>
+			</div>
+			<div>
+			<h2>A</h2>
+			<p>A</p>
+			</div>
+			<div>
+			<h2>A</h2>
+			<p>A</p>
+			</div>
+			<div>
+			<h2>A</h2>
+			<p>A</p>
+			</div>
+			<div>
+			<h2>A</h2>
+			<p>A</p>
+			</div>
+			<div>
+			<h2>A</h2>
+			<p>A</p>
+			</div>
+			
+	<footer class="rodape">Copyright &copy; Mitologia na Grécia Antiga 2022</footer>	
+	<a href="https://www.flaticon.com/free-icons/home-page" title="home page icons">Home page icons created by Freepik - Flaticon</a>
+	<a href="https://www.flaticon.com/free-icons/forms" title="forms icons">Forms icons created by Freepik - Flaticon</a>
+	<a href="https://www.flaticon.com/free-icons/greek" title="greek icons">Greek icons created by Freepik - Flaticon</a>
+	<!-- Fundo dourado, não sei se vou usar -->
+	<a href="https://br.freepik.com/vetores-gratis/botoes-web-vetoriais-realistas-ouro-madeira-metal-e-preto-isolado-no-fundo-branco_35188216.htm#query=botoes%20em%20ouro&position=22&from_view=search&track=sph#position=22&query=botoes%20em%20ouro">Imagem de user15245033 no Freepik</a>
+</body>
+</html>

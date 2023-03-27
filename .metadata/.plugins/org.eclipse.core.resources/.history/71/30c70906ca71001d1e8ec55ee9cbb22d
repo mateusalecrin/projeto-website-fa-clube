@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* Configuração geral do corpo da página */
+
+body {
+	margin: 0 auto;
+	font-family: "Century Gothic", sans-serif;
+}
+
+/* Configurações gerais */
+
+/* Cabeçalho */
+header {
+	height: 50px;
+	background-color: black;
+}
+
+/* Menu */
+nav {
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: nome;
+	text-color: white;
+}
+
+/* Área geral para conteúdos específicos de cada página */
+section {
+	min-height: 360px;
+	width: 100%;
+	margin-top: 0px;
+	background-color: red;
+}
